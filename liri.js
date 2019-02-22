@@ -18,7 +18,15 @@ spotify.search({ type:"track", query: "All the small things" }, function(err, da
 
 
 
-
+function concertThis(x) {
+	console.log("concertThis(): " + x);	
+}
+function movieThis(x) {
+	console.log("movieThis(): " + x);	
+}
+function spotifyThisSong(x) {
+	console.log("spotifyThisSong(): " + x);	
+}
 
 
 
@@ -32,16 +40,21 @@ if (process.argv.length < 3) {
 	}
 	switch(command) {
 		case "concert-this":	// Bands in Town, probably?
-			console.log("Do concert-this for " + input);
+			concertThis(input);
 			break;
 		case "spotify-this-song":	// spotify API
-			console.log("Do spotify-this-song for " + input);
+			spotifyThisSong(input);
 			break;
 		case "movie-this":	// OMDB api
-			console.log("Do movie-this for " + input);
+			movieThis(input);
 			break;
 		case "do-what-it-says": // one of the above, depending on input
 			console.log("Do do-what-it-says for " + input);
+			/*
+			Here you would want to:
+			1. Read random.txt into an array of commands/inputs
+			2. Based on each command, run the appropriate function for the input
+			*/
 			break;
 		default:
 			console.log("That's not a valid command!");

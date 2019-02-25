@@ -1,3 +1,7 @@
 # liri-node-app
 
-![image](https://cloud.githubusercontent.com/assets/9053854/24495974/fbf2e0cc-1547-11e7-846c-25b5fac7f6b1.png)
+![image](https://raw.githubusercontent.com/scarrasco27541/liri-node-app/master/screenshots/1.png)
+![image](https://raw.githubusercontent.com/scarrasco27541/liri-node-app/master/screenshots/2.png)
+![image](https://raw.githubusercontent.com/scarrasco27541/liri-node-app/master/screenshots/3.png)
+![image](https://raw.githubusercontent.com/scarrasco27541/liri-node-app/master/screenshots/4.png)
+
